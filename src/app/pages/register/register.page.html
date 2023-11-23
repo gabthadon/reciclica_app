@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="flex-center">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title size="full" id="register-text">Register</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-input  type="text" label="Firstname" class="rounded-input" label-placement="floating" fill="outline" placeholder="Enter Firstname"></ion-input>
+
+        <br>
+
+        <ion-input  type="text" label="Lastname" label-placement="floating" fill="outline" placeholder="Enter Lastname"></ion-input>
+
+        <br>
+
+        <ion-input  type="email" label="Email" label-placement="floating" fill="outline" placeholder="Enter Lastname"></ion-input>
+
+        <br>
+
+     
+
+        <ion-item>
+          <ion-input label="Phone number" label-placement="floating" type="tel"   placeholder="Phone number"></ion-input>
+        </ion-item>
+ 
+        <br>
+
+        <ion-radio-group value="custom-checked">
+          <ion-radio value="custom" aria-label="Custom checkbox">Male </ion-radio> <br> <br>
+          <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">Female</ion-radio>
+        </ion-radio-group>
+
+        <br> <br>
+
+        <ion-button expand="block"  id="btn-register" >Register</ion-button>
+
+        
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
