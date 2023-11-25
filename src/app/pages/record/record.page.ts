@@ -17,6 +17,7 @@ export class RecordPage implements OnInit {
     this.post.get(url).subscribe((data)=>{
  this.response=data;
       console.log(this.response);
+      
     })
   }
 
