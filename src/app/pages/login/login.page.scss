@@ -4,5 +4,14 @@ ion-button[color='dark']{
 
 
 ion-content{
-    --background:var(--ion-color-success);
+    --background:rgb(14, 62, 150);
+}
+
+btn-login{
+    --background:rgb(14, 62, 150);
+    --color:white;
+}
+
+ion-input.ng-dirty.ng-invalid{
+    border: red 1px solid;
 }

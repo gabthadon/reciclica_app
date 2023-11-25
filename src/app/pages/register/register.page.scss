@@ -1,9 +1,20 @@
 ion-content{
-    --background:var(--ion-color-success);
+    --background:rgb(14, 62, 150);
 }
 
 ion-button{
 
     border-radius: 20px;
 }
+
+#btn-register{
+    --background:rgb(14, 62, 150);
+   
+}
+
+#btn-register{
+    --border-radius:20px;
+}
+
+
 
